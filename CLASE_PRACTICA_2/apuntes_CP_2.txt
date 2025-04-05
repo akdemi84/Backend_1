@@ -1,0 +1,49 @@
+PARA INSTALAR LIBRERIAS EXTERNAS HAY QUE CREAR EL PACKAGE.JSON--> SE CREA CON npm init -y. EN EL ARCHIVO ASIGNAR   "type": "module". Quedando asi:
+{
+  "name": "calculatedays",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": ""
+}
+
+
+INSTALACION DE LIBRERIA MOMENT: CALCULA FECHAS. --> npm install moment 
+  {
+  "name": "calculatedays",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
+
+----------------------*--------------------
+
+PRACTICA DE MODULO NATIVO:
+
+CRYPTO
+
+---------------|x|-------------------
+spread: Sirve para volcar propiedade de otro objeto
+
+const newUser = {...user}
+
+me ahorro de hacer esto:
+
+constnewUser = {name: user.name, surname: user.surname}
